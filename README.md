@@ -101,9 +101,9 @@ BWT string transforming to uni-paths:
 ubwt unipath BWT-STR
 
 ### Example
-deGSM -k 50 -l 7 -m 32G ./jellyfish-2.1.4 result.bwt ../source_path
+deGSM -k 30 -m 32G ./jellyfish-2.1.4 source.bwt ../source_path
 
-ubwt unipath input.ubwt -e edges.seq -k 55 -o result.unipath.gfa -a G
+ubwt unipath source.ubwt -e edges.seq -k 30 -o result.unipath.gfa -a G
 
 For more detailed knowledge about ubwt, please check https://github.com/hitbc/ubwt.
 ### Simulation benchmarking
